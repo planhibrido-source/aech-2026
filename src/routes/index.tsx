@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import { Nav } from "@/components/Nav";
 import { Section, Reveal } from "@/components/Section";
-import heroPort from "@/assets/hero-port.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -95,7 +94,7 @@ function Index() {
       >
         <motion.div style={{ y, opacity }} className="absolute inset-0">
           <img
-            src={heroPort}
+            src="https://lh3.googleusercontent.com/pw/AP1GczPU84mY6aBz6SmtDF89iFI5MQSV2i--R2XsVop97SMwdxMlOiQqtC5MSnx9lmNB6PlOhAinYLk5HbnYuY6TuAhHP3UVTdcbJiXTUUe3cc8yz2ToSKg=w2400"
             alt="Puerto de carga al atardecer"
             className="w-full h-full object-cover"
             width={1920}
