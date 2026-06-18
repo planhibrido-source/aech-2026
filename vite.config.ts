@@ -13,7 +13,7 @@ export default defineConfig({
       server: { entry: "server" }
     }),
     nitro({
-      preset: process.env.VERCEL ? "vercel" : "node-server",
+      preset: process.env.NETLIFY ? "netlify" : process.env.VERCEL ? "vercel" : "node-server",
       rollupConfig: {
         onwarn(warning, rollupWarn) {
           if (warning.code === "MODULE_LEVEL_DIRECTIVE" || warning.message.includes("use client")) {
