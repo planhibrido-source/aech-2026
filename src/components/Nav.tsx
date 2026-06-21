@@ -37,7 +37,7 @@ export function Nav() {
         </nav>
         <a
           href="#contacto"
-          className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full text-sm font-medium bg-[#db512d] text-[#0e3f8a] hover:bg-[#db512d]/90 transition-colors"
+          className="hidden md:inline-flex items-center px-6 py-3 rounded-full text-base lg:text-lg font-medium bg-[#db512d] text-[#0e3f8a] hover:bg-[#db512d]/90 transition-colors"
         >
           Contáctanos
         </a>

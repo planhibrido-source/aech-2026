@@ -300,7 +300,7 @@ function Index() {
       <Section id="contacto" className="bg-black text-white">
         <div className="max-w-6xl mx-auto">
           <Reveal>
-            <p className="text-gold tracking-[0.25em] text-xs uppercase mb-5 text-center">
+            <p className="text-gold tracking-[0.25em] text-sm md:text-base uppercase mb-5 text-center">
               Contáctanos
             </p>
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-center mb-6 font-light">
