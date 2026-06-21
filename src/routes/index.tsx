@@ -35,7 +35,7 @@ const pillars = [
   {
     icon: ShieldCheck,
     title: "Responsabilidad",
-    desc: "Compromiso en el manejo y resguardo de su carga.",
+    desc: "Compromiso en el manejo y resguardo de tu carga.",
   },
   {
     icon: Handshake,
@@ -45,7 +45,7 @@ const pillars = [
   {
     icon: Settings2,
     title: "Eficiencia",
-    desc: "Agilidad y precisión para optimizar sus tiempos de logística.",
+    desc: "Agilidad y precisión para optimizar tus tiempos de logística.",
   },
   {
     icon: Scale,
@@ -123,7 +123,7 @@ function Index() {
             <span className="text-blue-300 italic font-medium">la logística en confianza</span>
           </h1>
           <p className="mt-6 md:mt-8 text-base md:text-xl text-white max-w-2xl mx-auto font-light leading-relaxed">
-            AECH, su agente aduanal de confianza en Venezuela. Importación y exportación por vía
+            AECH, tu agente aduanal de confianza en Venezuela. Importación y exportación por vía
             aérea y marítima con respaldo institucional.
           </p>
           <div className="mt-8 md:mt-12 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
@@ -177,7 +177,7 @@ function Index() {
             </p>
             <p>
               Nuestro compromiso es la transparencia absoluta y el cumplimiento estricto de la
-              normativa vigente, asegurando que el flujo de su negocio nunca se detenga.
+              normativa vigente, asegurando que el flujo de tu negocio nunca se detenga.
             </p>
           </Reveal>
         </div>
@@ -251,7 +251,7 @@ function Index() {
               <em className="text-gradient-gold not-italic">COMERCIO EXTERIOR</em>
             </h2>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto text-lg">
-              Acompañamos cada etapa de su operación con experiencia, agilidad y respaldo legal.
+              Acompañamos cada etapa de tu operación con experiencia, agilidad y respaldo legal.
             </p>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-6 mt-20">
@@ -259,23 +259,17 @@ function Index() {
               const isWhiteCard =
                 s.title === "Gestión de Importación y Exportación" ||
                 s.title === "Nacionalización de Mercancía";
-              const isOrangeHover =
-                s.title === "Asesoría Especializada" || s.title === "Logística Terrestre Nacional";
               return (
                 <Reveal key={s.title} delay={i * 0.08}>
                   <div
                     className={`group relative p-10 rounded-2xl border transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] overflow-hidden h-full ${
                       isWhiteCard
-                        ? "bg-white text-navy-deep border-border hover:border-gold/60 shadow-lg hover:shadow-xl"
-                        : `bg-navy-deep text-white border-transparent ${isOrangeHover ? "hover:border-[#db512d]" : "hover:border-gold/60"} shadow-lg`
+                        ? "bg-white text-navy-deep border-border hover:border-[#db512d] shadow-lg hover:shadow-xl"
+                        : "bg-[#0e3f8a] text-white border-transparent hover:border-[#db512d] shadow-lg"
                     }`}
                   >
                     <div
-                      className={`absolute -right-12 -top-12 w-40 h-40 rounded-full transition-colors duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-                        isOrangeHover
-                          ? "bg-[#db512d]/10 group-hover:bg-[#db512d]"
-                          : "bg-gold/5 group-hover:bg-gold/15"
-                      }`}
+                      className="absolute -right-12 -top-12 w-40 h-40 rounded-full transition-colors duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] bg-[#db512d]/10 group-hover:bg-[#db512d]"
                     />
                     <div className="relative">
                       <div className="flex items-center gap-4 mb-4">
@@ -310,10 +304,10 @@ function Index() {
               Contáctanos
             </p>
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-center mb-6 font-light">
-              Conectemos su negocio <em className="text-gradient-gold not-italic">con el mundo</em>
+              Conectemos tu negocio <em className="text-gradient-gold not-italic">con el mundo</em>
             </h2>
             <p className="text-white/60 text-center max-w-2xl mx-auto text-lg mb-20">
-              Estamos listos para acompañarle en cada operación.
+              Estamos listos para acompañarte en cada operación.
             </p>
           </Reveal>
           <div className="grid md:grid-cols-3 gap-6">
