@@ -240,8 +240,16 @@ function Index() {
       </Section>
 
       {/* SERVICIOS */}
-      <Section id="servicios" className="bg-white text-navy-deep">
-        <div className="max-w-6xl mx-auto">
+      <Section id="servicios" className="relative bg-white text-navy-deep overflow-hidden">
+        {/* Background Image Layer */}
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10"
+          style={{
+            backgroundImage:
+              "url('https://lh3.googleusercontent.com/pw/AP1GczMQSGwIowsX9QwdiKv1Gc_ratJIJze4rFfpnWSu92FeliwREegMyt-0jDIUpUHMSvqJ6DPUtY08EK-4z2Zqs_RHMoSfNizouCdM063C3khU-KfAIu8=w2400')",
+          }}
+        />
+        <div className="max-w-6xl mx-auto relative z-10">
           <Reveal>
             <p className="text-gold tracking-[0.25em] text-sm md:text-base uppercase mb-5 text-center">
               Soluciones
