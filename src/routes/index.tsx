@@ -129,14 +129,14 @@ function Index() {
           <div className="mt-8 md:mt-12 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
             <a
               href="#contacto"
-              className="group inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#db512d] text-[#0e3f8a] font-medium hover:bg-[#db512d]/90 transition-all hover:shadow-[0_4px_24px_rgba(219,81,45,0.3)]"
+              className="group inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#0e3f8a] border border-white text-white font-medium hover:bg-[#0e3f8a]/90 transition-all hover:scale-105 hover:shadow-[0_4px_24px_rgba(14,63,138,0.3)]"
             >
               Iniciar operación
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
               href="#servicios"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/25 text-white hover:bg-white/10 transition"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/25 text-white hover:bg-white/10 transition-all hover:scale-105"
             >
               Conocer servicios
             </a>
@@ -305,7 +305,7 @@ function Index() {
       </Section>
 
       {/* CONTACTO */}
-      <Section id="contacto" className="bg-black text-white">
+      <Section id="contacto" className="bg-[#0e3f8a] text-white">
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <p className="text-gold tracking-[0.25em] text-sm md:text-base uppercase mb-5 text-center">
